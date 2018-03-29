@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context="com.example.usuario.myapplication.BlankFragment"
+    android:orientation="vertical"
+    android:id="@+id/fragment"
+    android:background="@color/colorPrimary">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enviar recibido"/>
+
+    <Button
+        android:id="@+id/btn_cambiar_a_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a mainactivity"/>
+
+</LinearLayout>
